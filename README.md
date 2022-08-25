@@ -16,7 +16,7 @@ A netflix-like skin for gogoanime.pe
 > 
 > - [Tampermonkey for Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) / [Tampermonkey for Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=en-US)
 2. Create new scripts in Tampermonkey and copy the contents from this repository
-3. Bookmark [https://gogoanime.pe/](https://gogoanime.pe/)
+3. Bookmark [https://gogoanime.ee/](https://gogoanime.ee/)
 
 ## Screenshots
 
