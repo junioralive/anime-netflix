@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  try to take over the world!
 // @match        https://goload.one/*
-// @icon         https://www.google.com/s2/favicons?domain=gogoanime.pe
+// @icon         https://www.google.com/s2/favicons?domain=gogoanime.ee
 // @grant        none
 // ==/UserScript==
 

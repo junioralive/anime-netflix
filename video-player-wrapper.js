@@ -3,8 +3,8 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  try to take over the world!
-// @match        https://gogoanime.pe/*episode*
-// @icon         https://www.google.com/s2/favicons?domain=gogoanime.pe
+// @match        https://gogoanime.ee/*episode*
+// @icon         https://www.google.com/s2/favicons?domain=gogoanime.ee
 // @grant        none
 // ==/UserScript==
 
@@ -50,7 +50,7 @@
   logo.src =
     "https://fontmeme.com/permalink/210922/eb7793d11e15ae1d6b588e5b19df2988.png";
   logo.onclick = () => {
-    location.href = "https://gogoanime.pe/popular.html";
+    location.href = "https://gogoanime.ee/popular.html";
   };
   document.body.appendChild(logo);
 
@@ -98,7 +98,7 @@
 
   if (animes.findIndex((x) => x.name == name) == -1) {
     fetch(
-      "https://gogoanime.pe/category/" +
+      "https://gogoanime.ee/category/" +
         name
           .toLowerCase()
           .replace(/[^ 0-9a-z]/gi, "")

@@ -3,8 +3,8 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  try to take over the world!
-// @match        https://gogoanime.pe/category/*
-// @icon         https://www.google.com/s2/favicons?domain=gogoanime.pe
+// @match        https://gogoanime.ee/category/*
+// @icon         https://www.google.com/s2/favicons?domain=gogoanime.ee
 // @grant        none
 // ==/UserScript==
 
@@ -198,7 +198,7 @@ p::-webkit-scrollbar {
   logo.src =
     "https://fontmeme.com/permalink/210922/eb7793d11e15ae1d6b588e5b19df2988.png";
   logo.onclick = () => {
-    location.href = "https://gogoanime.pe/popular.html";
+    location.href = "https://gogoanime.ee/popular.html";
   };
   nav.appendChild(logo);
 
@@ -209,7 +209,7 @@ p::-webkit-scrollbar {
   search.onkeydown = () => {
     if (event.keyCode == 13) {
       location.href =
-        "https://gogoanime.pe/search.html?keyword=" + search.value;
+        "https://gogoanime.ee/search.html?keyword=" + search.value;
     }
   };
   nav.appendChild(search);

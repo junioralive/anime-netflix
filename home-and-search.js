@@ -3,9 +3,9 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  try to take over the world!
-// @match        https://gogoanime.pe/popular.html*
-// @match        https://gogoanime.pe/search.html*
-// @icon         https://www.google.com/s2/favicons?domain=gogoanime.pe
+// @match        https://gogoanime.ee/popular.html*
+// @match        https://gogoanime.ee/search.html*
+// @icon         https://www.google.com/s2/favicons?domain=gogoanime.ee
 // @grant        none
 // ==/UserScript==
 
@@ -151,12 +151,12 @@ button:hover {
   animes = JSON.parse(animes).reverse();
 
   var c = [];
-  if (location.href == "https://gogoanime.pe/popular.html")
+  if (location.href == "https://gogoanime.ee/popular.html")
     animes.forEach((x) => {
       c.push({
         name: x.name,
         url:
-          "https://gogoanime.pe/category/" +
+          "https://gogoanime.ee/category/" +
           x.name
             .toLowerCase()
             .replace(/[^ 0-9a-z]/gi, "")
@@ -193,7 +193,7 @@ button:hover {
   logo.src =
     "https://fontmeme.com/permalink/210922/eb7793d11e15ae1d6b588e5b19df2988.png";
   logo.onclick = () => {
-    location.href = "https://gogoanime.pe/popular.html";
+    location.href = "https://gogoanime.ee/popular.html";
   };
   nav.appendChild(logo);
 
@@ -204,7 +204,7 @@ button:hover {
   search.onkeydown = () => {
     if (event.keyCode == 13) {
       location.href =
-        "https://gogoanime.pe/search.html?keyword=" + search.value;
+        "https://gogoanime.ee/search.html?keyword=" + search.value;
     }
   };
   nav.appendChild(search);
@@ -218,7 +218,7 @@ button:hover {
     prv.innerText = "PREV";
     prv.onclick = () => {
       var num = Number(location.href.split("?page=")[1]) || 1;
-      location.href = "https://gogoanime.pe/popular.html?page=" + (num - 1);
+      location.href = "https://gogoanime.ee/popular.html?page=" + (num - 1);
     };
     nav.appendChild(prv);
   }
@@ -229,7 +229,7 @@ button:hover {
     nxt.innerText = "NEXT";
     nxt.onclick = () => {
       var num = Number(location.href.split("?page=")[1]) || 1;
-      location.href = "https://gogoanime.pe/popular.html?page=" + (num + 1);
+      location.href = "https://gogoanime.ee/popular.html?page=" + (num + 1);
     };
     nav.appendChild(nxt);
   }
