@@ -3,7 +3,7 @@ A netflix-like skin for anitaku.to website.
 
 
 # DEMO
-![](https://github.com/junioralive/anime-netflix/blob/main/src/anime_netflix.mp4)
+https://github.com/junioralive/anime-netflix/assets/54473944/5bcc9552-dc2f-447a-8fce-96cdf493cee9
 
 ## Features
 - Shows the past 5 animes on the home screen (personal recommedations coming soon)
