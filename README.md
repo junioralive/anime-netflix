@@ -19,5 +19,5 @@ https://github.com/junioralive/anime-netflix/assets/54473944/5bcc9552-dc2f-447a-
 > - [AdBlock for Chrome](https://chrome.google.com/webstore/detail/adblock-%E2%80%94-best-ad-blocker/gighmmpiobklfepjocnamgkkbiglidom) / [AdBlock for Edge](https://microsoftedge.microsoft.com/addons/detail/adblock-complete/fbobegkkdmmcnmoplkgdmfhdlkjfelnb?hl=en-US)
 > 
 > - [Tampermonkey for Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) / [Tampermonkey for Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=en-US)
-2. Create new scripts in Tampermonkey and copy the contents from this repository
+2. Create new scripts in Tampermonkey and copy the contents from this [repository](https://github.com/junioralive/anime-netflix/tree/main/src)
 3. Bookmark [https://gogoanime.ee/](https://anitaku.to/)
