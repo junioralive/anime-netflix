@@ -1,5 +1,9 @@
-# GogoAnimeSkin
-A netflix-like skin for gogoanime.pe
+# NETLFIX ANIME
+A netflix-like skin for anitaku.to website.
+
+
+# DEMO
+![]()
 
 ## Features
 - Shows the past 5 animes on the home screen (personal recommedations coming soon)
@@ -16,4 +20,4 @@ A netflix-like skin for gogoanime.pe
 > 
 > - [Tampermonkey for Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) / [Tampermonkey for Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=en-US)
 2. Create new scripts in Tampermonkey and copy the contents from this repository
-3. Bookmark [https://gogoanime.ee/](https://gogoanime.ee/)
+3. Bookmark [https://gogoanime.ee/](https://anitaku.to/)
